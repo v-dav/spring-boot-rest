@@ -282,3 +282,6 @@ To clone and run the project locally:
 ## Conclusion
 
 This project demonstrates the use of Spring Boot to create a REST API for managing student records. Key concepts such as entities, repositories, services, and controllers are implemented to provide a complete understanding of building a Spring Boot application. The project setup includes the use of Maven for dependency management and build configuration, ensuring a streamlined development process.
+
+## Author
+Vladimir Davidov
