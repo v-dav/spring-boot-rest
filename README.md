@@ -4,6 +4,9 @@ Here are the badges for Java and Spring Boot:
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 
+![Skärmavbild 2024-07-24 kl  15 56 56](https://github.com/user-attachments/assets/a243570b-cd9a-4724-8a6f-3bc31c60bff0)
+
+
 This project demonstrates the creation of a simple back-end application using Spring Boot to implement a REST API. The primary focus of this project is to learn how to use Spring Boot for building robust and scalable RESTful web services.
 
 ## Project Description
