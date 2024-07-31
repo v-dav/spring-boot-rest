@@ -280,6 +280,8 @@ To clone and run the project locally:
     ```
 
 ### Running the Application from JAR
+![Skärmavbild 2024-07-31 kl  12 36 58](https://github.com/user-attachments/assets/a7dfe02e-8461-4be4-bfb2-df00090c1317)
+
 To run the application from the packaged JAR file, follow these steps:
 
 1. **Ensure you have Java installed:**
