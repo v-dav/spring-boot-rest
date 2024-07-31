@@ -279,6 +279,41 @@ To clone and run the project locally:
     mvnw.cmd spring-boot:run # For Windows systems
     ```
 
+### Running the Application from JAR
+To run the application from the packaged JAR file, follow these steps:
+
+1. **Ensure you have Java installed:**
+   Make sure you have Java installed on your machine. You can check if Java is installed by running:
+   ```bash
+   java -version
+   ```
+   If Java is not installed, you can download and install it from the [official website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+2. **Navigate to the directory containing the JAR file:**
+   Open a terminal or command prompt and navigate to the directory where your packaged JAR file is located.
+
+3. **Run the JAR file:**
+   Use the following command to run the application from the JAR file:
+   ```bash
+   java -jar your-application.jar
+   ```
+   Replace `your-application.jar` with the actual name of your JAR file.
+
+### Example
+
+If your JAR file is named `spring-boot-backend.jar`, the command would be:
+```bash
+java -jar spring-boot-backend.jar
+```
+
+This will start your Spring Boot application, and you should see the application logs in the terminal indicating that the server has started. You can then access the REST API endpoints as defined in your application.
+
+### Running the application from a different port
+```bash
+java -jar your-application.jar --server.port=8081
+```
+
+This will start your Spring Boot application on the specified port. You should see the application logs in the terminal indicating that the server has started on the new port. You can then access the REST API endpoints at the new port. For example, if you are running on port 8081, you can access your API at http://localhost:8081.
 ## Conclusion
 
 This project demonstrates the use of Spring Boot to create a REST API for managing student records. Key concepts such as entities, repositories, services, and controllers are implemented to provide a complete understanding of building a Spring Boot application. The project setup includes the use of Maven for dependency management and build configuration, ensuring a streamlined development process.
